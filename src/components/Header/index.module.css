@@ -4,25 +4,27 @@
  width: 100%;
  height: 100px;
  background-color: transparent;
+ border: 1px solid;
 }
 
 .link{
  align-self: center;
  margin: 0 35px;
- transition: transform .3s ease ;
+ transition: transform .2s ease ;
 }
 
 .link:hover{
- color: var(--blue);
+ color: var(--azul);
  transform: scale(1.1);
+ border-bottom: 2px solid var(--vermelhoEscuro);
 }
 
 .link a{
  font-size: 20px;
  font-weight: 500;
- color: var(--preto);
+ color: var(--vermelho);
 }
 
 .link a:hover{
- color: var(--blue);
+ color: var(--vermelhoEscuro);
 }
