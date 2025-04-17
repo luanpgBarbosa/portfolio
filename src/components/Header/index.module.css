@@ -4,19 +4,18 @@
  width: 100%;
  height: 100px;
  background-color: transparent;
- border: 1px solid;
 }
 
 .link{
+color: var(--azul);
  align-self: center;
  margin: 0 35px;
  transition: transform .2s ease ;
 }
 
 .link:hover{
- color: var(--azul);
+ color: var(--azulClaro);
  transform: scale(1.1);
- border-bottom: 2px solid var(--vermelhoEscuro);
 }
 
 .link a{

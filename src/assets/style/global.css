@@ -1,10 +1,7 @@
 :root{
- --preto: #0a0305;
- --azul: #436573;
- --vermelho: #bf0404;
- --vermelhoEscuro: #8c0303;
- --branco: #f0f2f2;
- --cinza: #d3cfcf;
+ --preto: #181717;
+ --azul: #0c3fe6;
+ --azulClaro: #2acce9;
 }
 
 *{
@@ -17,5 +14,5 @@
 }
 
 body{
- background-color: var(--branco);
+ background-color: var(--preto);
 }
